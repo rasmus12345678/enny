@@ -17,7 +17,6 @@ body{
   
   font-family: 'Anek Kannada', sans-serif;
    background-color: darkgray;
-   font-size: 12px;
 }
 
 #logo{
@@ -103,3 +102,9 @@ nav ul a:hover{
 
 }
 
+@media only screen and (max-width: 700px) {
+ 
+  body{
+    font-size: 38px;
+  }
+}
